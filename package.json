@@ -1,0 +1,17 @@
+{
+  "name": "pachim",
+  "version": "1.0.0",
+  "description": "a tool for install javascript packages from pachim.sh",
+  "bin": "./index.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pachim",
+    "nodejs",
+    "package",
+    "installer"
+  ],
+  "author": "Hesam Mousavi",
+  "license": "ISC"
+}
