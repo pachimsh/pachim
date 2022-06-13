@@ -1,8 +1,9 @@
 {
   "name": "pachim",
   "version": "1.0.0",
+  "type": "module",
   "description": "a tool for install javascript packages from pachim.sh",
-  "bin": "./index.sh",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +14,12 @@
     "installer"
   ],
   "author": "Hesam Mousavi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2",
+    "shelljs": "^0.8.5",
+    "yargs": "^17.5.1"
+  }
 }
